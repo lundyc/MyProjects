@@ -1,0 +1,172 @@
+
+			/* Friends */
+			div.fb-friend {
+				border: 1px solid #CCCCCC;
+				width:284px;
+				margin:	10px 0 0 0;
+				padding:	7px;
+				overflow: hidden;
+				white-space:nowrap;
+				background-image: url('');
+				background-position: 0 -2px;
+
+			}
+
+			img.fb-friend-img {
+				background-color: #E8E8E8;
+				border: 1px solid #CCCCCC;
+				padding: 4px;
+				vertical-align: middle;
+			}
+
+			span.fb-friend-name {
+				font-family: sans-serif;
+				margin: 0 0 0px 15px;
+				color: #62889D;
+
+			}
+			
+			/* Status */
+			
+			div.fb-status-box {
+				border-bottom: 1px solid #999;
+				background-color: #F2F2F2;
+				padding: 10px;
+				text-shadow: 1px 1px 1px #FFFFFF;
+				line-height: 20px;				
+			}	
+			
+				span.fb-status {
+					color: #62889D;
+					font-family: 'Droid Sans',arial,serif;
+					font-size: 12px;
+
+				}
+
+				span.fb-status-attributes {
+					display: block; /* required */
+					vertical-align: baseline;
+					font-size: 10px;
+				}
+				
+				
+			
+			/* Feed */
+			
+			div.fb-feed-wrapper {
+				font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+				font-size: 11px;
+				
+				border-top: 1px solid #E9E9E9;
+				padding: 10px 0 10px 0;
+				margin: 0 0 0 00px;
+/*				width: 280px;*/
+				width: 458px;
+				
+			}
+			
+				div.fb-feed-wrapper img {
+					display: block; 
+					float: left;
+				}				
+			
+				div.fb-feed-wrapper div.fb-feed-body {  /* required */
+					overflow: auto;
+					padding-left:	10px;
+				}
+
+		
+
+				div.fb-feed-wrapper div.fb-feed-body span { /* required */
+/*					display: block; */
+				}		
+				
+					/* Caption */
+					div.fb-feed-wrapper div.fb-feed-body span.fb-caption { 
+/*						margin: 0 0 5px 0;*/
+						display: block;	
+					}	
+					
+						div.fb-feed-wrapper div.fb-feed-body span.fb-caption span.fb-name{ 
+							color: #3B5998;
+							font-weight: bold;
+						}						
+					
+					/* Contents */
+					div.fb-feed-wrapper div.fb-feed-body span.fb-contents { 
+						color: #000;
+						font-weight: normal;
+						display: block;
+					}		
+					
+						div.fb-feed-wrapper div.fb-feed-body span.fb-contents img { 
+							float: none;
+							padding: 3px;
+							margin: 3px 0 0 0;
+							border: 1px solid #CCCCCC;
+							display: inline;
+							vertical-align: top;
+						}	
+						
+						div.fb-feed-wrapper div.fb-feed-body span.fb-contents img.fb-link-img { 
+							float: left;
+							clear: right;
+							margin-right: 10px;
+						}
+						
+						div.fb-feed-wrapper div.fb-feed-body span.fb-contents div.fb-link-wrapper {
+/*							display: inline;
+							margin-left: 10px;
+							vertical-align: top;*/
+									
+						}
+						
+							div.fb-feed-wrapper div.fb-feed-body span.fb-contents span.fb-content-title {
+								color: #3B5998;
+								font-weight: bold;							
+								vertical-align: top;
+								display: inline-block;
+							}
+
+							div.fb-feed-wrapper div.fb-feed-body span.fb-contents div.fb-content-line {
+								color: #808080;
+								display: inline;
+								vertical-align: top;
+								line-height: 15px;
+							}
+
+							div.fb-feed-wrapper div.fb-feed-body span.fb-contents div.fb-content-line span {
+								color: #333;
+							}
+				
+					div.fb-feed-wrapper div.fb-feed-body span.fb-date { 
+						color: #999;
+						font-weight: normal;
+						padding: 10px 0 0 0;
+						display: block;
+						clear: both;
+					}		
+					
+						/* Icon image */
+						div.fb-feed-wrapper div.fb-feed-body span.fb-date img { 
+							display: block; 
+							margin: 0 5px 0 0;
+					
+						}			
+						
+					div.fb-feed-wrapper div.fb-feed-body div.fb-comment {
+						color: #333333;
+						background-color: #EDEFF4;
+						border-bottom: 1px solid #E5EAF1;
+						margin: 5px 0 2px 0;
+						padding: 5px;
+						text-shadow: none;
+						line-height: 15px;
+						clear: both;	
+						overflow: hidden;
+					}
+					
+						div.fb-feed-wrapper div.fb-feed-body div.fb-comment span.fb-name {
+							color: #3B5998;
+							font-weight: bold;	
+						}	

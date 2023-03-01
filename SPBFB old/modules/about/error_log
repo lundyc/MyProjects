@@ -1,0 +1,6 @@
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/about/index.php on line 8
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/about/index.php on line 8
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/about/index.php on line 9
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/about/index.php on line 162
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/about/index.php on line 162
+[15-Jan-2012 15:13:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/about/index.php on line 162

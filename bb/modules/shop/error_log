@@ -1,0 +1,2 @@
+[06-Dec-2013 00:23:24 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/spbfb/public_html/modules/shop/index.php on line 21
+[13-May-2015 16:25:53 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/lundy/public_html/modules/shop/index.php on line 21

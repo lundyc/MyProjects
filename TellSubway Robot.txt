@@ -1,0 +1,80 @@
+// First page
+document.querySelector('#txtSearch').value = '34124';
+SearchStore();
+setTimeout(() => { CloseAndGo(); }, 1000);
+
+// Second Page
+const today = new Date();
+const dd = today.getDate() - 1;
+const mm = today.getMonth() + 1; //January is 0!
+const yyyy = today.getFullYear();
+
+if (dd < 10) {
+  dd = '0' + dd;
+}
+if (mm < 10) {
+  mm = '0' + mm;
+}
+
+const formattedDate = `${dd}/${mm}/${yyyy}`;
+document.querySelector("#date_10199").value = formattedDate;
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+document.querySelector("#hour_10199").value = getRandomInt(1, 24);
+document.querySelector("#minute_10199").value = "0";
+
+setTimeout(() => { Move(1,2); }, 5000);
+
+// Third Page
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach((checkbox) => {
+  const checkboxId = checkbox.id;
+  if (
+    checkboxId === "opt_10" ||
+    checkboxId === "opt_50375" ||
+    checkboxId === "opt_50387" ||
+    checkboxId === "opt_50398" ||
+    checkboxId === "opt_50409" ||
+    checkboxId === "opt_50420" ||
+    checkboxId === "opt_50431" ||
+    checkboxId === "opt_50442"
+  ) {
+    checkbox.checked = true;
+    checkbox.dispatchEvent(new Event("change"));
+  }
+});
+
+setTimeout(() => { Move(2,3); }, 2000);
+
+// Fourth Page
+document.querySelector("#opt_50488").click();
+document.querySelector("#opt_50491").click();
+document.querySelector("#opt_50491").click();
+document.querySelector("#10225").selectedIndex = 5;
+document.querySelector("#10225").dispatchEvent(new Event("change"));
+document.querySelector("#10226").selectedIndex = 3;
+document.querySelector("#10226").dispatchEvent(new Event("change"));
+
+setTimeout(() => { Move(3,4); }, 5000);
+
+// Last Page
+function getRandomEmail(domain, length) {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for (var i = 0; i < length; i++) {
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+
+  return text + domain;
+}
+
+const email = getRandomEmail("@domain.com",15);
+document.querySelector("#10227").value = email;
+document.querySelector("#opt_No").click();
+document.querySelector("#opt_contact_no").click();
+setTimeout(() => { SubmitSurvey(); }, 5000);
+setTimeout(() => { window.location.href = 'http://www.tellsubway.co.uk/'; }, 10000);

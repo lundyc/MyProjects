@@ -1,0 +1,4 @@
+[04-Apr-2015 20:58:14 UTC] PHP Warning:  include(_mysqli.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/lundy/public_html/subway/index.php on line 7
+[04-Apr-2015 20:58:14 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '_mysqli.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/lundy/php') in /home/lundy/public_html/subway/index.php on line 7
+[04-Apr-2015 20:58:14 UTC] PHP Warning:  include(mobile_index.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/lundy/public_html/subway/index.php on line 19
+[04-Apr-2015 20:58:14 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'mobile_index.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/lundy/php') in /home/lundy/public_html/subway/index.php on line 19

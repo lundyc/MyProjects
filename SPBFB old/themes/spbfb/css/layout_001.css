@@ -1,0 +1,416 @@
+@import url(skin_001.css);
+
+#container {
+	width: 1003px;;
+	margin:0 auto;
+	padding:0;
+}
+
+#widthContainer {
+	width:1003px;
+	margin:0 auto;
+	padding:0;
+}
+
+#wrap{
+	text-align: center;
+	background: url("../images/shadow.png") top left repeat-y;
+}
+
+
+
+/*#header {
+	width: 1003px;
+	height: 92px;
+	display:block;
+	margin:0px;
+	padding:auto;
+	text-align: center;
+	border-top:0;
+	overflow:hidden;
+}
+
+#headermain {
+	width: 973px;
+	height: 92px;
+	float: left;
+	background: url("../images/header/middle.png") top left repeat-x;
+}
+
+#btop {
+	padding: 2px;
+	width: 728px;
+	height: 60px;
+	background: url("images/header/extrasbg.png") top left repeat;
+}
+
+*/
+
+
+#spbfb {
+float: right; 
+width: 238px; 
+height: 87px; 
+background-image: url('../images/header_image.png');
+padding: 0px; 
+margin: 0px;
+}
+
+#partners {
+	float: left;
+}
+
+
+#extras {
+	font-size: 10px;
+	line-height: 1.3em;
+	width: 194px;
+	height: 74px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	float: left;
+	padding: 8px;
+	color: #fff;
+	background: url("../images/extrasbg.png") top left repeat-x;
+}
+
+#topNav {
+	width:987px;
+	height:32px;
+	background:#FFF url(../images/menu_bg.gif) repeat-x;
+	margin: 5 5px;
+	padding: 0 0px;
+	text-align: center;
+}
+
+#topNav ul {
+	width:1003px;
+	margin:0 auto;
+	padding: 0px;
+	text-align:center;
+	list-style-type:none;
+	padding-left: 120px
+}
+
+#topNav ul li {
+	float:left;
+}
+
+#topNav li a {
+	display: block;
+	width:auto;
+	height:24px;
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#DDD;
+	text-decoration:none;
+	text-align:center;
+	text-transform: uppercase;
+	margin:0;
+	padding: 8px 26px 0 !important;
+	
+
+}
+
+#topNav ul li a:hover {
+	background:#FFF url("../images/menu_bg_hover.gif") repeat-x;
+	color:#FFF;
+}
+
+.daysleft {
+	float: left; 
+	width: 109px; 
+	height: 50px; 
+	text-align: center; 
+	padding-top: 0px; 
+	background-image: url("../images/days/days.png");
+}
+
+#main {
+	width: 987px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.bg {
+background-color:#FFFFFF; 
+}
+
+
+#sideBar {
+	width: 242px;
+	min-height:100%;
+	float:left;
+	display:block;
+	margin:0 0px 0px 0;
+	padding:0 2px 2px 0;
+	font-size:11px;
+	
+	text-align:left;
+	vertical-align:top;
+	padding-left: 3px;
+}
+
+#sideBar2 {
+	width: 242px;
+	min-height:100%;
+	float:right;
+	display:block;
+	margin:0 0px 0px 0;
+	padding:0 2px 2px 0;
+	font-size:11px;
+	
+	text-align:left;
+	vertical-align:top;
+	
+}
+
+#sideBar3 {
+	width: 484px;
+	min-height:100%;
+	float:right;
+	display:block;
+	margin:0 0px 0px 0;
+	padding:0 2px 2px 0;
+	font-size:11px;
+	
+	text-align:left;
+	vertical-align:top;
+	
+}
+
+#content {
+	width: 494px;
+	margin:0 0px 0px 0;
+	padding:0 2px 2px 0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float: left;
+	
+	text-align:left;
+	vertical-align:top;	
+}
+
+#listing1_header {
+	height: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	background-image:url("../images/skin0.png"); 
+	background-position:top left;
+	background-repeat:repeat-x; 
+}
+
+#listing2_header {
+	height: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	color: #fff;
+	font-size: 12px;
+	background-image:url("../images/skin0.png"); 
+	background-position:top left;
+	background-repeat:repeat-x; 
+}
+
+#listing1_header span {
+	font-weight: bold;
+}
+
+#listing2_header span {
+	font-weight: bold;
+}
+
+.listing1 {
+	padding-bottom: 5px;
+	color: #000;
+	width: 100%;
+}
+
+
+.ipbtable { width:100% }
+
+table.ipbtable,
+tr.ipbtable,
+td.ipbtable
+{ /* required for text in tables, because tables do not inherit from body */
+	background: transparent;
+	color: #222;
+	font-size: 12px;
+	line-height: 135%;
+	
+	width:100%;
+	height:32px;
+	margin:0;
+	padding:0;
+	text-align: left;
+	
+}
+
+.subtitle { 
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0; 
+	padding: 5px;
+	
+	background: #ced7e5;
+	border-bottom: 1px solid #9aa4b1;
+	color: #464c55;
+}
+
+.footer {
+	background: #000;
+	width: 987px;
+	clear: both;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+.threadheader {
+	height: 24px;
+	background: #4a658b;
+	border-top: 1px #2d617f solid;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+.threadheaderleft {
+	width: 320px;
+	float: left;
+	color: #FFFFFF;
+}
+
+.threadheaderright {
+	float: right;
+}
+
+.threadcontent {
+	background: url("../images/threadbgfade.png") top left repeat-x;
+	font-size: 12px;
+	margin-top: 1px;
+	overflow: hidden;
+	clear: both;
+}
+
+.padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/*
+This is my Beta test for the RTE Stuff
+*/
+
+.MainBody h1 {
+padding-bottom: 2px;
+}
+
+
+	/* Big box with list of options */
+	#ajax_listOfOptions{
+		position:absolute;	/* Never change this one */
+		width:175px;	/* Width of box */
+		height:250px;	/* Height of box */
+		overflow:auto;	/* Scrolling features */
+		border:1px solid #a8a8a8;	/* Dark green border */
+		background-color:#FFF;	/* White background color */
+		text-align:left;
+		font-size:0.9em;
+		z-index:100;
+	}
+	#ajax_listOfOptions div{	/* General rule for both .optionDiv and .optionDivSelected */
+		margin:3px;		
+		padding:3px;
+		cursor:pointer;
+		font-size:14px;
+	}
+	#ajax_listOfOptions .optionDiv{	/* Div for each item in list */
+		
+	}
+	#ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+		background-color:#ced7e5;
+		color:#000;
+	}
+	#ajax_listOfOptions_iframe{
+		background-color:#F00;
+		position:absolute;
+		z-index:5;
+	}
+
+#onlinecontent {
+	float: right;
+	width: 35%;
+}
+	
+#shoutcontent {
+	word-wrap:break-word; 
+	height: 390px !important;
+	width:65%;
+	word-wrap:break-word; 
+	
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+	
+.post {
+	border-bottom: 1px solid #ebeff1; 
+	text-align: left; 
+	position: relative;
+}
+
+.PostTime {
+	display: none;
+	visibility:hidden;
+}
+
+.PostDate {
+	float: right; 
+	font-size: 10px; 
+	color: #999999;
+}
+
+.PostNick {
+	float: left;
+	padding-right: 2px; 
+	font-weight: 600;
+}
+
+.PostMsg {
+	clear: both;
+}
+
+#form {
+	clear: both;		
+}
+	
+.text_area {
+	width: 92%; 
+	height: 80px; 
+	overflow: auto; 
+	border: 1 px solid blue;		
+}
+	
+.icones {
+	position:absolute; 
+	visibility: hidden; 
+	border: 2px solid #999; 
+	background-color: lightyellow; 
+	width: 400px;
+	height: 300px; 
+	padding: 5px;
+}
+
+.text_icones {
+	padding: 2px; 
+	display:block;
+	clear: both;
+}

@@ -1,0 +1,6 @@
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url("images/gallery/blank.gif");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="css/images/gallery/overlay.png", sizingMethod="scale");
+	}

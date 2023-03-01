@@ -1,0 +1,13 @@
+#shop {
+width: 100%;
+border: 0;
+border-collapse: separate;
+border-spacing: 20px;
+}
+
+#shop_details {
+width: 100%;
+border: 0;
+border-collapse: separate;
+border-spacing: 0px;
+}

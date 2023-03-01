@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/?$ index.php?page=$1 [L,QSA]
+
+ExpiresActive on
+AddType image/x-icon .ico
+ExpiresByType text/plain "access plus 30 days"
+ExpiresByType image/x-icon "access plus 30 days"
+ExpiresByType image/ico "access plus 30 days"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType text/css "access plus 7 days"
+
+<FilesMatch ".*\.(js|css|jpg|gif|png|xml|html)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>

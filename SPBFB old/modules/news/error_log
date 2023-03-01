@@ -1,0 +1,1 @@
+[15-Jan-2012 15:11:27] PHP Fatal error:  Call to undefined function  safe_query() in /home/spbfb/public_html/modules/news/index.php on line 7

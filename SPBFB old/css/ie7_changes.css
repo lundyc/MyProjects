@@ -1,0 +1,26 @@
+.clearfix { display: inline-block; }
+div#todayPeople { display: inline-block; } 
+
+#shoutcontent {
+	word-wrap:break-word; 
+	height: 390px !important;
+	width:65%;
+	word-wrap:break-word; 
+	
+	display: inline-block;
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+div.artistRank { float: left; margin-left: 1em; width: 70%; }
+				ol.topTensList li { display: inline-block; }
+				div#todayNews div#topNews,
+				div#todayNews div#otherNews { margin-bottom: 0; } 
+				div#todayPeople div#findUserWrap { margin-top: 1.5em; }
+				div#account input#genderF,
+				div#account input#genderM,
+				div#account input#agree { background: none; border: none; }
+				div.leftLgn { padding: 0; }
+				div#today  { display: inline-block; }
+				div#today div.tb { display: inline-block; }

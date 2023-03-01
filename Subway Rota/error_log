@@ -1,0 +1,5 @@
+[04-Feb-2014 14:17:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/lundy/public_html/index.php on line 159
+[04-Feb-2014 16:24:30 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/lundy/public_html/save.php on line 11
+[04-Feb-2014 16:24:40 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/lundy/public_html/save.php on line 11
+[04-Feb-2014 20:53:56 UTC] PHP Warning:  mysqli_stmt::bind_param() [<a href='mysqli-stmt.bind-param'>mysqli-stmt.bind-param</a>]: Number of variables doesn't match number of parameters in prepared statement in /home/lundy/public_html/save.php on line 28
+[04-Feb-2014 20:57:04 UTC] PHP Fatal error:  Call to undefined function printr() in /home/lundy/public_html/save.php on line 31

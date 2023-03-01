@@ -1,0 +1,8 @@
+[15-Jan-2012 17:18:44] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/themes/spbfb/layout/header.php on line 27
+[15-Jan-2012 17:18:44] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/themes/spbfb/layout/header.php on line 27
+[15-Jan-2012 17:18:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/themes/spbfb/layout/header.php on line 27
+[15-Jan-2012 17:20:02] PHP Fatal error:  Call to undefined function  idtoname() in /home/spbfb/public_html/themes/spbfb/layout/logged_in.php on line 20
+[15-Jan-2012 17:55:17] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/themes/spbfb/layout/upcoming_events.php on line 17
+[15-Jan-2012 17:55:17] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/themes/spbfb/layout/upcoming_events.php on line 17
+[15-Jan-2012 17:55:17] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/themes/spbfb/layout/upcoming_events.php on line 18
+[15-Jan-2012 17:55:17] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/themes/spbfb/layout/upcoming_events.php on line 24

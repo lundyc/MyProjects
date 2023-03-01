@@ -1,0 +1,20 @@
+[28-Sep-2011 06:51:09] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:09] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:09] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 8
+[28-Sep-2011 06:51:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 14
+[28-Sep-2011 06:51:29] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:29] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:29] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 8
+[28-Sep-2011 06:51:29] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 14
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 8
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 14
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/albums/index.php on line 7
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 8
+[28-Sep-2011 06:51:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 14
+[15-Jan-2012 15:17:11] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'spbfb'@'localhost' (using password: NO) in /home/spbfb/public_html/modules/albums/index.php on line 7
+[15-Jan-2012 15:17:11] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/spbfb/public_html/modules/albums/index.php on line 7
+[15-Jan-2012 15:17:11] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 8
+[15-Jan-2012 15:17:11] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/spbfb/public_html/modules/albums/index.php on line 14

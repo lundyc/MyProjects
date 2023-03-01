@@ -1,0 +1,1 @@
+[06-Dec-2013 00:24:51 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/spbfb/public_html/modules/news/index.php on line 49

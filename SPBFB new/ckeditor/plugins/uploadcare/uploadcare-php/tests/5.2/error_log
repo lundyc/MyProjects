@@ -1,0 +1,6 @@
+[31-Oct-2013 18:43:38 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6
+[31-Oct-2013 21:39:15 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6
+[01-Nov-2013 20:53:38 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6
+[14-Dec-2013 01:02:26 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6
+[31-Dec-2013 09:44:09 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6
+[01-Feb-2014 13:17:51 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/spbfb/public_html/ckeditor/plugins/uploadcare/uploadcare-php/tests/5.2/ApiTest.php on line 6

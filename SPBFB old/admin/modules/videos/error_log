@@ -1,0 +1,7 @@
+[09-Apr-2012 13:35:34] PHP Warning:  chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 2
+[09-Apr-2012 13:35:34] PHP Warning:  copy() [<a href='function.copy'>function.copy</a>]: Filename cannot be empty in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 10
+[09-Apr-2012 13:37:42] PHP Warning:  chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 2
+[09-Apr-2012 13:37:42] PHP Warning:  copy() [<a href='function.copy'>function.copy</a>]: Filename cannot be empty in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 10
+[02-May-2012 07:31:49] PHP Warning:  POST Content-Length of 123667766 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[02-May-2012 07:31:49] PHP Warning:  chdir() [<a href='function.chdir'>function.chdir</a>]: No such file or directory (errno 2) in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 2
+[02-May-2012 07:31:49] PHP Warning:  copy() [<a href='function.copy'>function.copy</a>]: Filename cannot be empty in /home/spbfb/public_html/admin/modules/videos/uploadvid.php on line 10

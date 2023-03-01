@@ -1,0 +1,24 @@
+				.clearfix { display: inline-block; }
+ 
+				div.b div div,
+				div.tb div div, 
+				div.bb div div{ height: 6px; margin: 0; font-size: 0; line-height: 0; border-left: solid 1px #A8A8A8; border-right: solid 1px #A8A8A8; }
+				div.mb { padding:0.1em 0.5em; }
+				div.tb { margin-bottom: -2px; }
+				div.tb,
+				div.tb div,
+				div.bb,
+				div.bb div,
+				div.b, 
+				div.b div { background: none;}
+ 
+				div.tb div div { margin: 0; }
+				div.b div div { border: none; }
+div#logIn input { width: 63%; }div.middle, div.mb, .afterTab { display: inline-block; }
+ 
+				div.googleafc li,
+				div#newMyspace div.description { display: inline; }
+			
+ 
+				div#today  { display: inline-block; }
+				div#today div.tb { display: inline-block; }

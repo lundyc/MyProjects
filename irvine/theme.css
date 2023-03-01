@@ -1,0 +1,143 @@
+#total,
+#cash_drop {
+  /* display: none; */
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+//Supports Mozilla
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+#cash {
+  width: 60%;
+}
+
+td {
+  border: 0px;
+  height: 30px;
+}
+
+input {
+  border: 1px dashed #999999;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.input_error {
+  border: .5pt solid #C00000;
+  background: #FCE4D6;
+  mso-pattern: #FCE4D6 none
+}
+
+body {
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.blue {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  mso-ignore: padding;
+  mso-font-charset: 0;
+  mso-number-format: General;
+  text-align: center;
+  vertical-align: middle;
+  background: #DDEBF7;
+  mso-pattern: #DDEBF7 none;
+  white-space: nowrap;
+}
+
+.time {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  mso-ignore: padding;
+  mso-font-charset: 0;
+  mso-number-format: "\[$-409\]h\0022\:\0022mm\0022\:\0022ss\0022 \0022AM\/PM\;\@";
+  text-align: center;
+  vertical-align: middle;
+  mso-background-source: auto;
+  mso-pattern: auto;
+  white-space: nowrap;
+}
+
+.xl77192621 {
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  mso-ignore: padding;
+  color: black;
+  font-size: 11.0pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  mso-font-charset: 0;
+  mso-number-format: "\0022 \0022\[$£-809\]\#\,\#\#0\.00\0022 \0022\;\0022-\0022\[$£-809\]\#\,\#\#0\.00\0022 \0022\;\0022 \0022\[$£-809\]\0022-\002200\0022 \0022\;\0022 \0022\@\0022 \0022";
+  text-align: center;
+  vertical-align: bottom;
+  mso-background-source: auto;
+  mso-pattern: auto;
+  white-space: nowrap;
+}
+
+a.selected {
+  background-color: #1F75CC;
+  color: white;
+  z-index: 100;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+.messagepop {
+  border: solid 1px black;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  background-color: white;
+  z-index: 100;
+  height: 50%;
+  margin-top: -200px;
+  display: none;
+  width: 30%;
+  margin-left: -300px;
+  font-size: 14px;
+}
+
+.popuptab {
+  width: 100%;
+  height: 100% !important;
+  border: 0;
+  font-size: 18px;
+}
+
+#popuptab td {
+  vertical-align: middle;
+}
+
+.messagepop a {
+  text-decoration: none;
+  color: #000;
+}
